@@ -21,11 +21,15 @@ export const translations = {
     faq: {
       title: "Frequently Asked Questions",
       q1: "Is it free to use?",
-      a1: "Yes, TeX64 is currently in open beta and free to use.",
+      a1: "Yes, TeX64 is currently in open beta and completely free. A Pro plan with advanced features is coming soon.",
       q2: "Can I use it offline?",
-      a2: "Absolutely. TeX64 runs completely locally on your machine.",
+      a2: "Absolutely. TeX64 runs completely locally on your machine using your local TeX distribution.",
       q3: "Is it compatible with standard LaTeX?",
-      a3: "Yes, it uses standard TeX distributions under the hood."
+      a3: "Yes, it uses latexmk and standard TeX distributions (TeX Live, MacTeX) under the hood.",
+      q4: "Is my data safe?",
+      a4: "Your documents never leave your computer. AI features are opt-in and only sent when you explicitly request assistance.",
+      q5: "What happens after the beta?",
+      a5: "Core features will remain free. We'll introduce a Pro plan for power users with advanced AI and collaboration features."
     },
     features: {
       title: "Why TeX64?",
@@ -115,7 +119,11 @@ export const translations = {
       q2: "オフラインでも使えますか？",
       a2: "はい、ローカルのTeX環境(LuaLaTeXなど)を使用するため、ネット環境は不要です。",
       q3: "既存のLaTeXと互換性はありますか？",
-      a3: "はい、latexmkを使用し、標準的なTeXディストリビューションと完全な互換性があります。"
+      a3: "はい、latexmkを使用し、標準的なTeXディストリビューション(TeX Live, MacTeX)と完全な互換性があります。",
+      q4: "データは安全ですか？",
+      a4: "ドキュメントはあなたのPCから外部に送信されません。AI機能はオプトインで、明示的にリクエストした場合のみ送信されます。",
+      q5: "ベータ終了後はどうなりますか？",
+      a5: "基本機能は無料のままです。高度なAI機能やコラボレーション機能を含むProプランを準備中です。"
     },
     features: {
       title: "なぜ TeX64 なのか？",
@@ -126,7 +134,7 @@ export const translations = {
       },
       vision: {
         title: "スクショからコード生成",
-        description: "数式の現像をドラッグ＆ドロップするだけ。一瞬で編集可能なLaTeXコードに変換します。",
+        description: "数式の画像をドラッグ＆ドロップするだけ。一瞬で編集可能なLaTeXコードに変換します。",
         badge: "マルチモーダル"
       },
       ai: {

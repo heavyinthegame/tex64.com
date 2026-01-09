@@ -3,7 +3,7 @@ import { useLanguage } from '../locales/LanguageContext';
 const FAQ = () => {
   const { t } = useLanguage();
 
-  const faqs = [1, 2, 3];
+  const faqs = [1, 2, 3, 4, 5];
 
   return (
     <section id="faq" style={styles.section}>
