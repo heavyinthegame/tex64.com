@@ -4,6 +4,7 @@ import Features from './Features';
 import Comparison from './Comparison';
 import Download from './Download';
 import FAQ from './FAQ';
+import Footer from './Footer';
 
 const Landing = () => {
   return (
@@ -14,6 +15,7 @@ const Landing = () => {
       <Comparison />
       <Download />
       <FAQ />
+      <Footer />
     </>
   );
 };

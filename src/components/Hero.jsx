@@ -1,7 +1,12 @@
 import { useLanguage } from '../locales/LanguageContext';
+import katex from 'katex';
 
 const Hero = () => {
   const { t } = useLanguage();
+
+  const renderMath = (latex) => {
+    return { __html: katex.renderToString(latex, { throwOnError: false, displayMode: true }) };
+  };
 
   return (
     <section style={styles.hero}>
@@ -23,7 +28,7 @@ const Hero = () => {
                 <span style={styles.dot}></span>
               </div>
               <div style={styles.cardBody}>
-                  <div style={styles.mathLine}>{String.raw`$$ \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} $$`}</div>
+                  <div style={styles.mathLine} dangerouslySetInnerHTML={renderMath("\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}")} />
               </div>
            </div>
         </div>

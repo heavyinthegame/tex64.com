@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav style={styles.nav}>
       <div className="container" style={styles.container}>
         <div style={styles.logo}>
-          <img src="/src/assets/logo.jpg" alt="TeX64" style={styles.logoImg} />
+          <img src="/logo.jpg" alt="TeX64" style={styles.logoImg} />
           TeX64
         </div>
         <div style={styles.links}>
