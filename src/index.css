@@ -1,0 +1,81 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #E91E63;
+  --color-secondary: #9C27B0;
+  --color-accent: #FF4081;
+  
+  /* Backgrounds */
+  --bg-main: #0F0518; /* Deep dark purple/black */
+  --bg-surface: #1A0B2E;
+  
+  /* Text */
+  --text-primary: #F3E5F5;
+  --text-secondary: #B39DDB;
+  
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, #E91E63 0%, #9C27B0 100%);
+  --gradient-text: linear-gradient(to right, #FF4081, #E040FB);
+  
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  
+  /* Layout */
+  --container-width: 1200px;
+  --header-height: 70px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+/* Utilities */
+.text-gradient {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(-5deg); }
+  50% { transform: translateY(-10px) rotate(-5deg); }
+  100% { transform: translateY(0px) rotate(-5deg); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
