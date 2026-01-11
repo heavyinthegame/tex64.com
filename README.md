@@ -1,5 +1,9 @@
 # React + Vite
 
+<a href="https://orynth.dev/projects/tex64" target="_blank" rel="noopener">
+  <img src="https://orynth.dev/api/badge/tex64?theme=light&style=default" alt="Featured on Orynth" width="260" height="80" />
+</a>
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
