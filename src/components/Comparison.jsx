@@ -18,7 +18,7 @@ const Comparison = () => {
       highlight: true,
       setup: { en: 'One-click', ja: 'ワンクリック' },
       offline: '✓',
-      ai: 'Gemini 2.5',
+      ai: 'Gemini 3',
       gui: '✓',
       preview: '✓',
       price: { en: 'Free (Beta)', ja: '無料 (ベータ)' },

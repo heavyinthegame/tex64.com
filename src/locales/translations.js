@@ -45,9 +45,9 @@ export const translations = {
         badge: "Multi-modal"
       },
       ai: {
-        title: "AI Copilot",
-        description: "Your editing assistant. Instantly fix complex table columns, center figures, or debug compilation errors.",
-        badge: "Gemini 2.5"
+        title: "AI Agent",
+        description: "Equipped with an agent capable of inference by Gemini 3. It autonomously solves complex problems and assists your writing.",
+        badge: "Gemini 3"
       }
     },
     footer: {
@@ -77,17 +77,17 @@ export const translations = {
     legal: {
         title: "Legal Information",
         distributor: "Distributor",
-        distributor_val: "TeX64 Inc.",
+        distributor_val: "Raymond",
         manager: "Operations Manager",
-        manager_val: "John Doe",
+        manager_val: "Available upon request",
         location: "Location",
-        location_val: "123 Tech Street, San Francisco, CA",
+        location_val: "Available upon request",
         contact: "Contact",
-        contact_val: "support@tex64.com",
+        contact_val: "tex64ai@gmail.com",
         price: "Price",
         price_val: "Free (Beta)",
         payment: "Payment Methods",
-        payment_val: "Credit Card (Stripe)"
+        payment_val: "None"
     },
     nav: {
       features: "Features",
@@ -117,7 +117,7 @@ export const translations = {
     faq: {
       title: "よくある質問",
       q1: "AI機能とは？",
-      a1: "Gemini 2.5を搭載したAIアシスタントが、エラーの自動修正やコード生成をサポートします。",
+      a1: "Gemini 3による推論を可能にしたエージェントを搭載し、エラーの自動修正やコード生成をサポートします。",
       q2: "オフラインでも使えますか？",
       a2: "はい、ローカルのTeX環境(LuaLaTeXなど)を使用するため、ネット環境は不要です。",
       q3: "既存のLaTeXと互換性はありますか？",
@@ -140,9 +140,9 @@ export const translations = {
         badge: "マルチモーダル"
       },
       ai: {
-        title: "AI アシスタント",
-        description: "執筆の悩みを即座に解決。表の列ズレ修正や画像のセンタリング、謎のエラー解決まで、AIがサポート。",
-        badge: "Gemini 2.5"
+        title: "AI エージェント",
+        description: "Gemini 3による推論を可能にしたエージェント機能を搭載。執筆の悩みやエラー解決を自律的にサポートします。",
+        badge: "Gemini 3"
       }
     },
     footer: {
@@ -172,17 +172,17 @@ export const translations = {
     legal: {
         title: "特定商取引法に基づく表記",
         distributor: "販売業者",
-        distributor_val: "TeX64株式会社",
+        distributor_val: "Raymond",
         manager: "運営責任者",
-        manager_val: "山田 太郎",
+        manager_val: "請求があり次第提供致します",
         location: "所在地",
-        location_val: "東京都渋谷区テックストリート1-2-3",
+        location_val: "請求があり次第提供致します",
         contact: "連絡先",
-        contact_val: "support@tex64.com",
+        contact_val: "tex64ai@gmail.com",
         price: "販売価格",
         price_val: "無料 (ベータ版)",
         payment: "支払方法",
-        payment_val: "クレジットカード (Stripe)"
+        payment_val: "なし"
     },
     nav: {
       features: "機能",
