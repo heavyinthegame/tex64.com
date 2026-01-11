@@ -14,6 +14,7 @@ const Hero = () => {
         <div style={styles.content}>
           <h1 style={styles.title} className="text-gradient">{t('hero.title')}</h1>
           <p style={styles.subtitle}>{t('hero.subtitle')}</p>
+          <p style={styles.releaseDate}>{t('hero.release_date')}</p>
           <div style={styles.actions}>
             <a href="#download" style={styles.primaryBtn}>{t('hero.cta_download')}</a>
             <a href="#features" style={styles.secondaryBtn}>{t('hero.cta_learn')}</a>
@@ -70,6 +71,12 @@ const styles = {
     color: 'var(--text-secondary)',
     marginBottom: 'var(--spacing-lg)',
     maxWidth: '500px'
+  },
+  releaseDate: {
+    fontSize: '1.1rem',
+    color: 'var(--color-primary, #e91e63)', // Fallback to pink/red if var not defined, matches shadow color hint
+    marginBottom: 'var(--spacing-md)',
+    fontWeight: 700
   },
   actions: {
     display: 'flex',

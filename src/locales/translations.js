@@ -4,7 +4,8 @@ export const translations = {
       title: "Math, Reimagined.",
       subtitle: "The next generation LaTeX editor that inputs math as fast as you think.",
       cta_download: "Download Beta",
-      cta_learn: "Learn More"
+      cta_learn: "Learn More",
+      release_date: "App release scheduled for February"
     },
     download: {
       title: "Get TeX64",
@@ -98,7 +99,8 @@ export const translations = {
       title: "数式を、もっと自由に。",
       subtitle: "思考のスピードで数式を入力。次世代のLaTeXエディタ。",
       cta_download: "ベータ版をダウンロード",
-      cta_learn: "詳しく見る"
+      cta_learn: "詳しく見る",
+      release_date: "アプリ公開は二月予定"
     },
     download: {
       title: "TeX64を入手",
