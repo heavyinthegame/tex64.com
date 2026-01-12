@@ -11,6 +11,11 @@ const Footer = () => {
           <a href="/legal" style={styles.link}>{t('footer.legal')}</a>
         </div>
 
+        <div style={styles.contact}>
+            <p style={styles.address}>CA: 6nLHtxBd8ZXuikf1URgfgcJMpAFx7FiYS7jQEdPkory</p>
+            <a href="https://x.com/TeX64AI" target="_blank" rel="noopener" style={styles.link}>@TeX64AI</a>
+         </div>
+
         <p style={styles.text}>{t('footer.copyright')}</p>
       </div>
     </footer>
@@ -43,6 +48,19 @@ const styles = {
     textDecoration: 'none',
     fontSize: '0.9rem',
     transition: 'color 0.2s'
+  },
+  contact: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: '0.5rem',
+      marginBottom: '1rem'
+  },
+  address: {
+      color: 'var(--text-secondary)',
+      fontSize: '0.8rem',
+      fontFamily: 'monospace',
+      opacity: 0.8
   }
 };
 
