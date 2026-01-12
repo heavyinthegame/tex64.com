@@ -28,14 +28,6 @@ const Navbar = ({ onOpenReleaseModal }) => {
           <a
             href="#download"
             style={styles.cta}
-            onClick={(e) => {
-              // e.preventDefault(); // Optional, if we want to stop scrolling
-              if (onOpenReleaseModal) {
-                 onOpenReleaseModal();
-              } else {
-                 alert('アプリ公開は二月予定です');
-              }
-            }}
           >
             {t('nav.download')}
           </a>
