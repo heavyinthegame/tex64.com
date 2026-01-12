@@ -92,6 +92,10 @@ export const translations = {
     nav: {
       features: "Features",
       download: "Download"
+    },
+    modal: {
+      release_title: "Coming Soon",
+      release_message: "App release is scheduled for February"
     }
   },
   ja: {
@@ -187,6 +191,10 @@ export const translations = {
     nav: {
       features: "機能",
       download: "ダウンロード"
+    },
+    modal: {
+      release_title: "近日公開予定",
+      release_message: "アプリ公開は二月予定です"
     }
   }
 };
