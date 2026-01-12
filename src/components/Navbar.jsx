@@ -18,6 +18,7 @@ const Navbar = ({ onOpenReleaseModal }) => {
             <a href="https://orynth.dev/projects/tex64" target="_blank" rel="noopener" style={styles.badgeLink}>
               <img src="https://orynth.dev/api/badge/tex64?theme=dark&style=default" alt="Featured on Orynth" height="32" />
             </a>
+            <p style={styles.caText}>CA: 6nLHtxBd8ZXuikf1URgfgcJMpAFx7FiYS7jQEdPkory</p>
           </div>
         <div style={styles.links}>
           <a href="#features" style={styles.link}>{t('nav.features')}</a>
@@ -92,6 +93,13 @@ const styles = {
     ':hover': {
       opacity: 0.8
     }
+  },
+  caText: {
+    color: 'var(--text-secondary)',
+    fontSize: '0.8rem',
+    fontFamily: 'monospace',
+    opacity: 0.8,
+    margin: 0
   },
   links: {
     display: 'flex',

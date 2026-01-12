@@ -12,6 +12,9 @@ const Footer = () => {
         </div>
 
         <div style={styles.contact}>
+            <a href="https://orynth.dev/projects/tex64" target="_blank" rel="noopener" style={{ marginBottom: '0.5rem' }}>
+              <img src="https://orynth.dev/api/badge/tex64?theme=dark&style=default" alt="Featured on Orynth" width="260" height="80" />
+            </a>
             <p style={styles.address}>CA: 6nLHtxBd8ZXuikf1URgfgcJMpAFx7FiYS7jQEdPkory</p>
             <a href="https://x.com/TeX64AI" target="_blank" rel="noopener" style={styles.link}>@TeX64AI</a>
          </div>
@@ -62,6 +65,7 @@ const styles = {
       fontFamily: 'monospace',
       opacity: 0.8
   }
+
 };
 
 export default Footer;
