@@ -1,9 +1,17 @@
 import { useState } from 'react';
 import { useLanguage } from '../locales/LanguageContext';
 
-const Download = () => {
+const Download = ({ onOpenReleaseModal }) => {
   const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState('mac');
+
+  const handleDownloadClick = () => {
+      if (onOpenReleaseModal) {
+          onOpenReleaseModal();
+      } else {
+          alert('アプリ公開は二月予定です');
+      }
+  };
 
   return (
     <section id="download" style={styles.section}>
@@ -35,11 +43,11 @@ const Download = () => {
                         <p style={styles.version}>{t('download.version')}</p>
                     </div>
                     <div style={styles.buttons}>
-                        <button style={styles.downloadBtn}>
+                        <button style={styles.downloadBtn} onClick={handleDownloadClick}>
                             <span style={styles.icon}></span> 
                             {t('download.download_btn')} {t('download.silicon')}
                         </button>
-                         <button style={styles.secondaryDownloadBtn}>
+                         <button style={styles.secondaryDownloadBtn} onClick={handleDownloadClick}>
                             {t('download.download_btn')} {t('download.intel')}
                         </button>
                     </div>
@@ -52,7 +60,7 @@ const Download = () => {
                         <p style={styles.version}>{t('download.version')}</p>
                     </div>
                      <div style={styles.buttons}>
-                        <button style={styles.downloadBtn}>
+                        <button style={styles.downloadBtn} onClick={handleDownloadClick}>
                              <span style={styles.icon}>⊞</span> 
                             {t('download.download_btn')} {t('download.win')}
                         </button>
