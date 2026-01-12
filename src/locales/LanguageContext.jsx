@@ -4,7 +4,7 @@ import { translations } from './translations';
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState('ja'); // Default to Japanese as requested context implies JP user base focus or JP dev
+  const [language, setLanguage] = useState('en');
 
   const t = (path) => {
     const keys = path.split('.');
